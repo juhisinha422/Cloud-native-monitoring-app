@@ -146,7 +146,7 @@ spec:
     spec:
       containers:
       - name: cloud-native-monitoring-app
-        image: apurva1025/my-flask-app:latest
+        image: juhisinha/flask-app:latest
         ports:
         - containerPort: 5000
 
@@ -162,7 +162,7 @@ metadata:
 spec:
   containers:
   - name: cloud-native-monitoring-app
-    image: apurva1025/my-flask-app:latest
+    image: juhisinha/flask-app:latest
     ports:
     - containerPort: 5000
 ```
