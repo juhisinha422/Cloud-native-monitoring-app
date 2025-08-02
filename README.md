@@ -42,6 +42,8 @@ git clone <repository_url>
 Install the required dependencies using pip:
 ```bash
 pip3 install -r requirements.txt
+or
+pip install --break-system-packages -r requirements.txt
 ```
 #### Run the Application
 Navigate to the project root directory and execute:
