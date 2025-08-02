@@ -200,6 +200,8 @@ kubectl get services
 Since we're not using a LoadBalancer or NodePort, expose the service using port-forwarding:
 ```bash
 kubectl port-forward service/cloud-native-monitoring-app-service 5000:5000
+or
+sudo -E kubectl port-forward service/cloud-native-monitoring-app-service 5000:5000 --address=0.0.0.0
 ```
 Now, access the application at `http://localhost:5000/`.
 
