@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: cloud-native-monitoring-app
-    image: juhisinha/monitoring-app
+    image: juhisinha/flask-app
     ports:
     - containerPort: 5000
