@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: cloud-native-monitoring-app
-        image: apurva1025/my-flask-app:latest
+        image: juhisinha/monitoring-app:latest
         ports:
         - containerPort: 5000
